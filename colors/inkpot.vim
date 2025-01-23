@@ -22,6 +22,10 @@ endif
 
 hi CursorLine                                guibg=#2e2e37
 
+hi! link Function Identifier
+hi! link Operator Normal
+hi! link Delimiter Special
+
 hi IncSearch      gui=bold   guifg=#303030   guibg=#cd8b60   cterm=bold   ctermfg=232   ctermbg=215
 hi Search         gui=NONE   guifg=#303030   guibg=#ad7b57   cterm=NONE   ctermfg=232   ctermbg=130
 hi ErrorMsg       gui=bold   guifg=#ffffff   guibg=#ce4e4e   cterm=bold   ctermfg=16    ctermbg=124
@@ -62,6 +66,7 @@ hi FoldColumn     gui=NONE   guifg=#8b8bcd   guibg=#2e2e2e   cterm=NONE   ctermf
 hi Directory      gui=NONE   guifg=#00ff8b   guibg=NONE      cterm=NONE   ctermfg=46    ctermbg=NONE
 hi LineNr         gui=NONE   guifg=#8b8bcd   guibg=#2e2e2e   cterm=NONE   ctermfg=63    ctermbg=232
 hi CursorLineNr   gui=bold   guifg=#8b8bcd   guibg=#2e2e2e
+hi! link QuickFixLine   CursorLine
 hi NonText        gui=bold   guifg=#8b8bcd   guibg=NONE      cterm=bold   ctermfg=63    ctermbg=NONE
 hi SpecialKey     gui=bold   guifg=#3b205d   guibg=NONE      cterm=bold   ctermfg=135   ctermbg=NONE
 hi Title          gui=bold   guifg=#af4f4b   guibg=NONE      cterm=bold   ctermfg=124   ctermbg=NONE
